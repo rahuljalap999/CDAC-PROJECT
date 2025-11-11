@@ -1,1 +1,1 @@
-Hospital Management System
+Arogyam- A Digital Healthcare Platform
