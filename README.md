@@ -30,9 +30,12 @@ Spring Boot REST APIs (Port 8081)
         ↓
 MySQL Database
 
-Authentication Flow:
-User → Login → JWT Token Generated → Stored in localStorage → 
-Sent in Authorization Header → Validated by JwtFilter
+# 🔐 Authentication Flow:
+User → Login 
+     → JWT Token Generated 
+     → Stored in localStorage 
+     → Sent in Authorization Header 
+     → Validated by JwtFilter
 
 
 # 🔐 Authentication & Security
