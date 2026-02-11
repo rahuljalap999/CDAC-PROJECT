@@ -192,25 +192,31 @@ Contains:
 
 ## 1️⃣ Backend Setup
 
+```
 cd arogyam-backend
 mvn clean install
 mvn spring-boot:run
-
+```
 
 Update `application.properties`:
+
+```
 spring.datasource.url=jdbc:mysql://localhost:3306/arogyam
 spring.datasource.username=root
 spring.datasource.password=yourpassword
 spring.jpa.hibernate.ddl-auto=update
 server.port=8081
+```
 
 Backend runs at: http://localhost:8081
 
 ## 2️⃣ Frontend Setup
 
+```
 cd arogyam-frontend
 npm install
 npm start
+```
 
 Frontend runs at: http://localhost:3000
 
