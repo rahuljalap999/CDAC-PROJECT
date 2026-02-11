@@ -78,13 +78,13 @@ Each role has restricted access based on Spring Security configuration.
 - View Dashboard Statistics
 
 ## APIs
-POST /api/admin/employees
-PUT /api/admin/employees
-GET /api/admin/employees
-PATCH /api/admin/employees/{eid}/status/{status}
-DELETE /api/admin/employees/{eid}
-GET /api/dashboard/stats
-GET /api/admin/employees/doctors
+- POST /api/admin/employees
+- PUT /api/admin/employees
+- GET /api/admin/employees
+- PATCH /api/admin/employees/{eid}/status/{status}
+- DELETE /api/admin/employees/{eid}
+- GET /api/dashboard/stats
+- GET /api/admin/employees/doctors
 
 # 👨‍⚕️ Doctor Module
 
@@ -96,11 +96,11 @@ GET /api/admin/employees/doctors
 - View Own Patient Prescription History
 
 ## APIs
-GET /api/doctor/queue/{doctorId}
-GET /api/doctor/history/{pid}
-POST /api/doctor/prescription/{opdid}
-PUT /api/doctor/prescription
-GET /api/doctor/patient/history/{pid}
+- GET /api/doctor/queue/{doctorId}
+- GET /api/doctor/history/{pid}
+- POST /api/doctor/prescription/{opdid}
+- PUT /api/doctor/prescription
+- GET /api/doctor/patient/history/{pid}
 
 
 Doctor sees:
@@ -121,17 +121,17 @@ Doctor sees:
 - View Patients by Doctor
 
 ## APIs
-POST /api/receptionist/patients
-PUT /api/receptionist/patients
-GET /api/receptionist/patients
-GET /api/receptionist/patients/{pid}
-GET /api/receptionist/patients/doctor/{doctorId}
-DELETE /api/receptionist/patients/{pid}
+- POST /api/receptionist/patients
+- PUT /api/receptionist/patients
+- GET /api/receptionist/patients
+- GET /api/receptionist/patients/{pid}
+- GET /api/receptionist/patients/doctor/{doctorId}
+- DELETE /api/receptionist/patients/{pid}
 
-POST /api/opd
-GET /api/opd/pending
-PATCH /api/opd/{opdid}/status/{status}
-DELETE /api/opd/{opdid}
+- POST /api/opd
+- GET /api/opd/pending
+- PATCH /api/opd/{opdid}/status/{status}
+- DELETE /api/opd/{opdid}
 
 # 🧑 Patient Module
 
@@ -140,8 +140,7 @@ DELETE /api/opd/{opdid}
 - View Own Prescription History
 
 ## APIs
-GET /api/doctor/patient/history/{pid}
-
+- GET /api/doctor/patient/history/{pid}
 
 Patients can only access their own data.
 
@@ -159,7 +158,7 @@ Displays:
 - Total Income (sum of OPD fees)
 
 ## APIs
-GET /api/dashboard/stats
+- GET /api/dashboard/stats
 
 
 # 🏗️ Database Design
