@@ -30,7 +30,7 @@ Spring Boot REST APIs (Port 8081)
         ↓
 MySQL Database
 
-# 🔐 Authentication Flow:
+# 🔐 Authentication Flow
 User → Login 
      → JWT Token Generated 
      → Stored in localStorage 
@@ -149,16 +149,10 @@ Patients can only access their own data.
 
 # 📊 Dashboard
 
-Accessible by:
-- Administrator
-- Doctor
-- Receptionist
-
 Displays:
 - Total Active Doctors
 - Total Patients
 - Total Employees
-- Total Income (sum of OPD fees)
 
 ## APIs
 - GET /api/dashboard/stats
@@ -211,7 +205,7 @@ spring.jpa.hibernate.ddl-auto=update
 server.port=8081
 ```
 
-Backend runs at: http://localhost:8081
+Backend runs at:  http://localhost:8081
 
 ## 2️⃣ Frontend Setup
 
@@ -221,7 +215,7 @@ npm install
 npm start
 ```
 
-Frontend runs at: http://localhost:3000
+Frontend runs at:  http://localhost:3000
 
 # 🧠 Key Concepts Implemented
 
